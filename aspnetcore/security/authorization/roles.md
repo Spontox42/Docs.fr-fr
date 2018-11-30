@@ -16,7 +16,7 @@ ms.locfileid: "39356673"
 
 <a name="security-authorization-role-based"></a>
 
-Lors de la création d’une identité, elle peut appartenir à un ou plusieurs rôles. Par exemple, Tracy mon peut-être appartenir aux rôles administrateur et utilisateur tandis que Scott peut uniquement appartenir au rôle d’utilisateur. Comment ces rôles sont créés et gérés varient selon le magasin de stockage du processus d’autorisation. Les rôles sont exposées au développeur via les [IsInRole](/dotnet/api/system.security.principal.genericprincipal.isinrole) méthode sur le [ClaimsPrincipal](/dotnet/api/system.security.claims.claimsprincipal) classe.
+Lors de la création d’une identité, elle peut appartenir à un ou plusieurs rôles. Par exemple, Tracy peut appartenir aux rôles d'administrateur et d'utilisateur tandis que Scott peut uniquement appartenir au rôle d’utilisateur. Comment ces rôles sont créés et gérés varient selon le magasin de stockage du processus d’autorisation. Les rôles sont exposées au développeur via les [IsInRole](/dotnet/api/system.security.principal.genericprincipal.isinrole) méthode sur le [ClaimsPrincipal](/dotnet/api/system.security.claims.claimsprincipal) classe.
 
 ::: moniker range=">= aspnetcore-2.0"
 
